@@ -21,3 +21,4 @@ Therefore, PR's are more than welcome.
 
 - [adamsome/gruvbox minor for vscode](https://github.com/adamsome/vscode-theme-gruvbox-minor) for creating the original theme
 - [LunarVim/onedarker.nvim](https://github.com/LunarVim/onedarker.nvim) was used as an inspiration for the lua porting
+- [Djanho](https://github.com/viniciusmuller/djanho) was used to create the first highlight groups using the vscode theme as parameter
