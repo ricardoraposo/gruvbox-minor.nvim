@@ -12,7 +12,9 @@ Neovim theme heavily based on the [Gruvbox Minor VSCode theme](https://github.co
 
 
 This colorscheme was made for personal use.<br>
-I mainly code in Typescript and Golang, so there might be a few highlight groups that were not set yet, so PR's are more than welcome.
+I mainly code in Typescript and Golang, so there might be a few highlight groups that were not set yet.
+I also use treesitter, so I didn't bother making the theme work without it.
+Therefore, PR's are more than welcome.
 
 
 ## Acknowledgements
