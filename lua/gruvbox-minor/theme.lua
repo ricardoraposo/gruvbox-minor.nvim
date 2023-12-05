@@ -4,7 +4,7 @@ local hl = vim.api.nvim_set_hl
 local theme = {}
 
 theme.set_highlights = function()
-  -- Basic stuff
+	-- Basic stuff
 	hl(0, "Normal", { bg = p.Color11, fg = p.Color10 })
 	hl(0, "Visual", { bg = p.Color15, fg = "" })
 	hl(0, "Error", { bg = "NONE", fg = p.Color0 })
@@ -12,6 +12,7 @@ theme.set_highlights = function()
 	hl(0, "Constant", { bg = "NONE", fg = p.Color2 })
 	hl(0, "Number", { bg = "NONE", fg = p.Color2 })
 	hl(0, "String", { bg = "NONE", fg = p.Color3 })
+	hl(0, "Statement", { bg = "NONE", fg = p.Color5 })
 	hl(0, "TSCharacter", { bg = "NONE", fg = p.Color4 })
 	hl(0, "Type", { bg = "NONE", fg = p.Color9 })
 	hl(0, "EndOfBuffer", { bg = p.Color11, fg = p.Color11 })
@@ -97,8 +98,11 @@ theme.set_highlights = function()
 	hl(0, "NvimTreeGitRenamed", { bg = "NONE", fg = p.Color2 })
 	hl(0, "NvimTreeGitNew", { bg = "NONE", fg = p.Color6 })
 
-  -- Telescope stuff
+	-- Telescope stuff
 	hl(0, "TelescopeNormal", { link = "Normal" })
+
+	-- Sql Stuff
+	hl(0, "mysqlEscaped", { bg = "NONE", fg = p.color9 })
 
 	-- Typescript specific stuff
 	hl(0, "TSLabel", { link = "Type" })
@@ -125,7 +129,7 @@ theme.set_highlights = function()
 	hl(0, "TSKeyword", { link = "Keyword" })
 	hl(0, "TSConstBuiltin", { link = "TSVariableBuiltin" })
 
-  -- Treesitter stuff
+	-- Treesitter stuff
 	hl(0, "@text.uri", { link = "Pmenu" })
 end
 
