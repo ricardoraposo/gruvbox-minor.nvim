@@ -5,7 +5,7 @@ local theme = {}
 
 theme.set_highlights = function()
 	-- Basic stuff
-	hl(0, "Normal", { bg = p.Color11, fg = p.Color10 })
+	hl(0, "Normal", { bg = p.Color11, fg = p.Color9 })
 	hl(0, "Visual", { bg = p.Color15, fg = "" })
 	hl(0, "Error", { bg = "NONE", fg = p.Color0 })
 	hl(0, "Comment", { bg = "NONE", fg = p.Color1, italic = true })
