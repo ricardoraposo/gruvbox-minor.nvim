@@ -1,4 +1,4 @@
-local p = require("gruvbox.palette")
+local p = require("gruvbox-minor.palette")
 
 local hl = vim.api.nvim_set_hl
 local theme = {}

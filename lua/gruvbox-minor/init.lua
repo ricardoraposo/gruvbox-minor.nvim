@@ -1,5 +1,5 @@
 local M = {}
-local theme = require('gruvbox.theme')
+local theme = require('gruvbox-minor.theme')
 
 M.setup = function()
   vim.cmd('hi clear')

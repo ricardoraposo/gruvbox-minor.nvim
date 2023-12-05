@@ -1,4 +1,3 @@
 lua << EOF
-local gruvbox_minor = require("gruvbox")
-gruvbox_minor.setup({})
+require("gruvbox-minor").setup()
 EOF
