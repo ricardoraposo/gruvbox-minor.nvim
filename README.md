@@ -7,7 +7,7 @@
 Neovim theme heavily based on the [Gruvbox Minor VSCode theme](https://github.com/adamsome/vscode-theme-gruvbox-minor), written in Lua with Treesitter support!
 
 
-[gruvbox minor in javascript/golang](./images/code.png)
+![gruvbox minor in javascript/golang](./images/code.png)
 
 
 
