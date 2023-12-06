@@ -131,6 +131,7 @@ theme.set_highlights = function()
 
 	-- Treesitter stuff
 	hl(0, "@text.uri", { link = "Pmenu" })
+	hl(0, "@type.builtin", { bg = "NONE", fg = p.Color6 })
 end
 
 return theme
