@@ -53,8 +53,6 @@ theme.set_highlights = function()
 	hl(0, "Folded", { link = "Comment" })
 	hl(0, "PreProc", { link = "String" })
 	hl(0, "Macro", { link = "Function" })
-	hl(0, "DiffAdd", { bg = p.Color14 })
-	hl(0, "DiffDelete", { bg = p.color0 })
 
 	-- Diagnostic stuff
 	hl(0, "DiagnosticUnderlineHint", { bg = "NONE", fg = "NONE", undercurl = true })
@@ -136,6 +134,8 @@ theme.set_highlights = function()
 	-- Treesitter stuff
 	hl(0, "@text.uri", { link = "Pmenu" })
 	hl(0, "@type.builtin", { bg = "NONE", fg = p.Color6 })
+	hl(0, "@text.diff.add", { link = "DiffAdd" })
+	hl(0, "@text.diff.delete", { link = "DiffDelete" })
 end
 
 return theme
