@@ -16,6 +16,39 @@ I mainly code in Typescript and Golang, so there might be a few highlight groups
 I also use treesitter, so I didn't bother making the theme work without it.
 Therefore, PR's are more than welcome.
 
+## Installation
+
+### Lazy
+
+```lua
+{
+  "ricardoraposo/gruvbox-minor.nvim",
+  lazy = false,
+  priority = 1000,
+  opts = {},
+}
+```
+
+### Packer
+
+```lua
+use ("ricardoraposo/gruvbox-minor.nvim")
+```
+
+## Usage
+
+### Vim Script
+
+```vim
+colorscheme gruvbox-minor
+```
+
+### Lua
+
+```lua
+vim.cmd.colorscheme("gruvbox-minor")
+```
+
 
 ## Acknowledgements
 
