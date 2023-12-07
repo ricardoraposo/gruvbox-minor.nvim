@@ -53,7 +53,7 @@ theme.set_highlights = function()
 	hl(0, "Folded", { link = "Comment" })
 	hl(0, "PreProc", { link = "String" })
 	hl(0, "Macro", { link = "Function" })
-	hl(0, "Storage", { link = "Function" })
+	hl(0, "Directory", { link = "Function" })
 
 	-- Diagnostic stuff
 	hl(0, "DiagnosticUnderlineHint", { bg = "NONE", fg = "NONE", undercurl = true })
