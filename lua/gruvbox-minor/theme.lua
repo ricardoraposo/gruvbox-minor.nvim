@@ -137,6 +137,8 @@ theme.set_highlights = function()
 	hl(0, "@type.builtin", { bg = "NONE", fg = p.Color6 })
 	hl(0, "@text.diff.add", { link = "DiffAdd" })
 	hl(0, "@text.diff.delete", { link = "DiffDelete" })
+	hl(0, "@constructor", { link = "Function" })
+	hl(0, "@constant.builtin", { link = "Constant" })
 end
 
 return theme
