@@ -39,7 +39,7 @@ theme.set_highlights = function()
 	hl(0, "Label", { bg = "NONE", fg = p.Color5 })
 	hl(0, "Delimiter", { bg = "NONE", fg = p.Color7 })
 	hl(0, "Search", { bg = p.Color10, fg = p.Color6 })
-	hl(0, "IncSearch", { bg = p.Color4, fg = p.Color10 })
+	hl(0, "IncSearch", { bg = p.Color4, fg = p.Color11 })
 	hl(0, "Exception", { bg = "NONE", fg = p.Color5 })
 	hl(0, "Title", { link = "Function" })
 	hl(0, "ColorColumn", { link = "Visual" })
@@ -131,6 +131,10 @@ theme.set_highlights = function()
 	hl(0, "TSPunctSpecial", { link = "TSPunctDelimiter" })
 	hl(0, "TSKeyword", { link = "Keyword" })
 	hl(0, "TSConstBuiltin", { link = "TSVariableBuiltin" })
+
+  -- Flash stuff
+	hl(0, "FlashMatch", { link = "Search" })
+	hl(0, "FlashCurrent", { link = "IncSearch" })
 
 	-- Treesitter stuff
 	hl(0, "@text.uri", { link = "Pmenu" })
