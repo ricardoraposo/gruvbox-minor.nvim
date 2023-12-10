@@ -6,7 +6,7 @@ local theme = {}
 theme.set_highlights = function()
 	-- Basic stuff
 	hl(0, "Normal", { bg = p.Color11, fg = p.Color9 })
-	hl(0, "Visual", { bg = p.Color16, fg = "" })
+	hl(0, "Visual", { bg = p.Color15, fg = "" })
 	hl(0, "Error", { bg = "NONE", fg = p.Color0 })
 	hl(0, "Comment", { bg = "NONE", fg = p.Color1, italic = true })
 	hl(0, "Constant", { bg = "NONE", fg = p.Color2 })
@@ -41,9 +41,9 @@ theme.set_highlights = function()
 	hl(0, "Search", { bg = p.Color10, fg = p.Color6 })
 	hl(0, "IncSearch", { bg = p.Color4, fg = p.Color11 })
 	hl(0, "Exception", { bg = "NONE", fg = p.Color5 })
+	hl(0, "CursorLine", { bg = p.Color16, fg = "" })
 	hl(0, "Title", { link = "Function" })
 	hl(0, "ColorColumn", { link = "Visual" })
-	hl(0, "CursorLine", { link = "Visual" })
 	hl(0, "Operator", { link = "Keyword" })
 	hl(0, "NonText", { link = "Comment" })
 	hl(0, "Conditional", { link = "Operator" })
@@ -132,7 +132,7 @@ theme.set_highlights = function()
 	hl(0, "TSKeyword", { link = "Keyword" })
 	hl(0, "TSConstBuiltin", { link = "TSVariableBuiltin" })
 
-  -- Flash stuff
+	-- Flash stuff
 	hl(0, "FlashMatch", { link = "Search" })
 	hl(0, "FlashCurrent", { link = "IncSearch" })
 
