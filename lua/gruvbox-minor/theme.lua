@@ -59,7 +59,8 @@ theme.set_highlights = function()
 
 	-- Diagnostic stuff
 	hl(0, "DiagnosticUnderlineHint", { bg = "NONE", fg = "NONE", undercurl = true })
-	hl(0, "DiagnosticUnderlineError", { bg = "NONE", fg = "NONE", undercurl = true })
+	hl(0, "DiagnosticUnderlineError", { bg = "NONE", fg = "NONE", undercurl = true, special = p.Color4 })
+	hl(0, "DiagnosticUnderlineWarn", { bg = "NONE", fg = "NONE", underline = false })
 
 	-- Cmp stuff
 	hl(0, "CmpItemAbbr", { bg = "NONE", fg = p.Color7 })
