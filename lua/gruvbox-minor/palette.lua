@@ -16,6 +16,7 @@ local palette = {
 	Color14 = "#2f3f33",
 	Color15 = "#504945",
 	Color16 = "#2c2c2b",
+	Color17 = "#2e3030",
 }
 
 return palette
