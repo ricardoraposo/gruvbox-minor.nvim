@@ -146,9 +146,7 @@ theme.set_highlights = function()
 	hl(0, "@text.diff.delete", { link = "DiffDelete" })
 	hl(0, "@constructor", { link = "Function" })
 	hl(0, "@constant.builtin", { link = "Constant" })
-	hl(0, "@variable", { link = "Constant" })
 	hl(0, "@tag", { fg = p.Color4 })
-	hl(0, "@tag.builtin", { fg = p.Color4 })
 	hl(0, "@tag.attribute", { fg = p.Color8 })
 end
 
