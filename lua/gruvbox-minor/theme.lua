@@ -152,6 +152,7 @@ theme.set_highlights = function()
   hl(0, "@variable.builtin", { fg = p.Color6 })
   hl(0, "@function.builtin", { fg = p.Color8 })
   hl(0, "@tag.builtin", { fg = p.Color4 })
+  hl(0, "@punctuation.special", { fg = p.Color6 })
 end
 
 return theme
